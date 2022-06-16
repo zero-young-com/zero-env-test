@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+*{
+    transition: all 200ms;
+}
+.background{
+    background: center url('/img/sub3.png');
+    background-size:contain;
+}
+input{
+    user-select: auto;
+}
+.progressBackground{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.05);
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+}
+.level{
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.levelImg{
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #00AC46;
+    border-radius: 100%;
+}
+.levelLV{
+    background: #00AC46;
+    border-radius: 10px;
+    color: #fff;
+    width: 90px;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 19px;
+
+    position: relative;
+    bottom: 23px;
+    left: 57px;
+}
+.whatis{
+    text-align: center;
+    color: #9d9d9d;
+    font-size: 19px;
+    font-weight: 500;
+}
+.myLVV{
+    margin: 25px 0 2px 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: #777777;
+}
+.levelName{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0 0 25px 0;
+}
+.levelcont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px 0;
+    width: 400px;
+}
+.Ime{
+    font-weight: 800;
+    margin: 40px 0 15px 0;
+    font-size: 30px;
+    color: #00AC46;
+    width: 100%;
+    text-align: center;
+}
+.rest{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ress{
+    cursor: pointer;
+    color: #fff;
+    background: #00AC46;
+    width: 400px;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+    margin: 30px 0 100px 0;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 100px;
+}
+.apple{
+    background: url('img/apple.png');
+    background-size: cover;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+}
+.appleCont{
+    text-align: center;
+    width: 100%;
+    margin: 0 0 0 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.line{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lineInner{
+    width: 400px;
+    height: 1px;
+    border-top: 2px solid #000;
+    margin: 10px 0 30px 0;
+}
+.Ido{
+    margin: 0 0 0 65px;
+}
+.Idos{
+    margin: 100px 0 0 65px;
+}
+.IdoTitle{
+    font-size: 40px;
+    font-weight: 1000;
+}
+.IdoTitle2{
+    font-size: 25px;
+    font-weight: 800;
+    width: 100%;
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+.sdslfg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.IdoTitle1{
+    margin: 5px 0 0 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.todoImg{
+    background: url('img/todo.png');
+    background-size: cover;
+    background-position: center;
+    width: 20px; height: 20px;
+    position: relative;
+    top: 5px;
+}
+.todolist{
+}
+.todo{
+    margin: 0 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: left;
+    
+}
+.adsfg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.todoTxt{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+.todoTxt1{
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+.activ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 65px);
+}
+.activIMG{
+    background: url('img/plogging.png');
+    background-size: cover;
+    background-position: center;
+    width: 300px; height: 200px;
+    margin: 20px 0 0 0;
+}
+.activTitle{
+    font-weight: 700;
+    font-size: 27px;
+    color: #00AC46;
+    margin: 20px 0 10px 0;
+}
+.activCont{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+.instaIMG{
+    background: url('img/instagram.svg');
+    background-size: cover;
+    background-position: center;
+    width: 40px; height: 40px;
+}
+.ttasdftt{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+.asdflknagd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.boxxxx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lv1csadf{
+    background: url('/img/lv1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.lv2csadf{
+    background: url('/img/lv2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.lsadf{
+    background-size: cover;
+    background-position: center;
+    width: 100px; height: 100px;
+    border: 3px solid #dddddd;
+    margin: 7px 0;
+    border-radius: 1000%;
+}
+.adfs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.lvasdf{
+    font-size: 20px;
+    font-weight: 700;
+    color: #00AC46;
+}
+.asdgh{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 0 5px;
+}
+.asdfb{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.boxxxx{
+    border: 3px solid #dddddd;
+    height: 200px;
+    width: 170px;
+    background: #fff;
+    border-radius: 15px;
+    margin: 10px 5px 30px 5px;
+}
+.insta{
+    margin: auto auto 100px auto;
+}
+.instaTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0 0 0;
+}
+.instaTitleT{
+    font-weight: 700;
+    font-size: 27px;
+    margin: 0 0 0 5px;
+}
+.instaNick{
+    margin: 25px 0;
+    padding: 10px 0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    width: 200px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.instaCont{
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+.shareto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+.sharetoTitle{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.facebook{
+    background: url('img/facebook.svg');
+    background-size: cover;
+    background-position: center;
+}
+.twitter{
+    background: url('img/twitter.png');
+    background-size: cover;
+    background-position: center;
+}
+.link{
+    background: url('img/link.png');
+    background-size: cover;
+    background-position: center;
+}
+.addsum{
+    color: #00AC46;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 5px 0 10px 0;
+}
+.appleIMG{
+    background: url('img/apple.png');
+    background-size: cover;
+    background-position: center;
+}
+.lv1Img{
+    width: 90px; height: 90px;
+}
+.lv1Title{
+    font-weight: 800;
+    font-size: 28px;
+    color: #fff;
+    position: relative;
+    bottom: 53px;
+    left: 27px;
+}
+.lv1cont{
+    position: relative;
+    bottom: 28px;
+}
+.lv1title{
+    font-size: 23px;
+    font-weight: 700;
+}
+.lv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loooooo{
+    position: relative;
+    top: 0; left: 15px;
+}
+.colt{
+    font-weight: 700;
+    color: #00AC46;
+    margin: 0 7px 0 0;
+}
+.lv1title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.lv1Per{
+    text-align: center;
+    font-size: 15px;
+}
+.mostManyT{
+    margin: 0 0 30px 70px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.lv2title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.lv2Per{
+    text-align: center;
+    font-size: 10px;
+}
+.lv2Img{
+    width: 70px; height: 70px;
+}
+.lv2Title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    bottom: 40px;
+    left: 21px;
+}
+.lv2cont{
+    position: relative;
+    bottom: 20px;
+}
+.lv2title{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.lv3title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.lv3Per{
+    text-align: center;
+    font-size: 12px;
+}
+.lv3Img{
+    width: 60px; height: 60px;
+}
+.lv3Title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    bottom: 35px;
+    left: 17px;
+}
+.lv3cont{
+    position: relative;
+    bottom: 15px;
+}
+.lv3title{
+    font-size: 15px;
+    font-weight: 700;
+}
+.lv1{
+    position: relative;
+    bottom: 0;
+    left: 10px;
+}
+.lv2{
+    position: relative;
+    bottom: 100px;
+    right: 130px;
+}
+.lv3{
+    position: relative;
+    bottom: 200px;
+    left: 140px;
+}
+.mostMany{
+    height: 270px;
+}
+.idovideo{
+    margin: 20px 0 20px 15px;
+    width: 350px;
+    height: calc(350px / 16 * 9);
+    position: relative;
+    top:0; left: -10px;
+}
+.aboutZero{
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 12px 0;
+    width: 220px;
+    border-radius: 35px;
+    margin: 15px 0 120px 0;
+    cursor: pointer;
+}
+.flex100{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ms4{
+    margin: 0 0 0 60px;
+}
+.admisIMG{
+    background: url('img/earth.png');
+    background-size: cover;
+    background-position: center;
+    width: 450px; height: 250px;
+}
+.contact{
+    padding: 13px 0;
+    text-align: center;
+    width: 400px;
+    font-size: 17px;
+}
+.contactDiv{
+    border: 2px solid #666666;
+    border-radius: 35px;
+    margin: 0 0 15px 0;
+}
+.saveWithZero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.vkrhl{
+    background: #00AC46;
+    cursor: pointer;
+    width: 450px;
+    text-align: center;
+    padding: 17px 0;
+    color: #fff;
+    margin: 20px 0 0 0;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.saveearth{
+    background: #bdbdbd;
+    cursor: no-drop;
+    width: 400px;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+    margin: 20px 0 0 0;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 100px;
+}
+.aosios{
+    font-size: 17px;
+    font-weight: 400;
+    color: #00AC46;
+    margin: 5px 0 0 0;
+}
+.zerobutton{
+    border-radius: 100px;
+}
+.btm{
+    margin: 0 0 100px 0;
+}
+.stopvkrhl{
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    border-radius: 100px;
+}
+.rhwjd{
+    position: fixed;
+    top:0;left:0;
+}
+.text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 500;
+}
+.zeroLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 5px 0 0 0;
+}
+.tpd{
+    font-weight: 600;
+}
+.lvttt{
+    color: #fff;
+    background: #00AC46;
+    padding: 10px 40px;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 50px;
+}
+.ssss{
+    background: #00AC46;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 50px;
+    border-radius: 100px;
+}
+.mz{
+    margin: 50px 0 0 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    
+}

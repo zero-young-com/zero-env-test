@@ -1,0 +1,146 @@
+.title{
+    background: center url('/img/sub3.png');
+    background-size: cover;
+}
+.hab{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+*{
+    transition: all 200ms;
+}
+.dlalwl{
+    background: url('img/ssb.png');
+    background-size: cover;
+    width: calc(500px * 0.9);
+    height: calc(325px * 0.9);
+    margin: 0 0 50px 0;
+}
+.ssss{
+    color: #fff;
+    background: #00AC46;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 15px 70px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 0 0 50px 0;
+    text-align: center;
+}
+.sssss{
+    color: #fff;
+    background: #00AC46;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 50px;
+    border-radius: 100px;
+    text-align: center;
+}
+.mamamamam{
+    margin: 100px 0 0 0;
+}
+.asdflknagd{
+    margin: 0 0 30vh 0;
+}
+.asdfb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.shareto{
+    margin: 50px 0 0 0;
+}
+.asdgnn{
+    font-weight: 700;
+    font-size: 19px;
+    color: #00AC46;
+}
+.buttonTexting{
+    font-size: 35px;
+    font-weight: 800;
+    color: #000;
+}
+.text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+}
+.btc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0; left: 0;
+}
+.buttonIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    padding: 10px 0;
+    background-color: #fff;
+
+}
+.buttonStart1{
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    font-weight: 450;
+    padding: 15px 0;
+    text-align: center;
+    width: 400px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttonAll{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.treeImg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+.tree{
+    width: 318px;
+    height: 318px;
+    background: url('img/index.png');
+    background-size: cover;
+}
+.zeroLogo{
+    color: #fff;
+    position: fixed;
+    bottom: 90px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.zeroLogoImg{
+    width: 30px;
+}
+.int{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+.buttonText1{
+    width: 100%;
+    text-align: center;
+}
+.buttonAll{
+    margin: 20px 0 100px 0;
+}

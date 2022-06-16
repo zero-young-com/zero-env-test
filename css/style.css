@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+*{
+    transition: none;
+    overflow: hidden;
+}
+html{
+    scroll-behavior: smooth;
+    background: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    width: 500px;
+    overflow-y: auto;
+}
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titleImg{
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 0 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff;
+}
+.top{
+    position: fixed;
+    background: #fff;
+    width: 500px;
+    height: 70px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    
+    z-index: 100;
+}
+.zeroIMG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+
+    width: 34px;
+    height: 34px;
+    margin: 0 0 0 20px;
+
+    background: transparent url('img/zero.svg') 0% 0% no-repeat padding-box;
+}
+
+.titleText{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-weight: 300;
+}
+.buttonText{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 5px 0 0 0;
+}
+.contentDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+.content{
+    background: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    width: 400px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    word-break: keep-all;
+}
+.contentText{
+    text-align: center;
+    word-break: keep-all;
+    width: 100%;
+    font-size: 20px;
+}
+.count{
+    font-size: 17px;
+    margin: 5px 0 0 0;
+    color: #faaf94;
+}
+.btnDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0; left: 0;
+    margin: 0 0 40px 0;
+}
+.btn{
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffea7e;
+    border: 2px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 65px;
+    padding: 0 15px;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.btn:focus, .btn:hover{
+    background: rgb(181, 247, 192);
+}
