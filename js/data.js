@@ -69,3 +69,4 @@ $(window).load(() => {
     $('.list').html(`${$('.list').html()}<div class="sum">SUM: ${sum.toLocaleString('ko-KR')}명</div>`);
     ref();
 });
+
