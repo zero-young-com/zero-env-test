@@ -25,7 +25,7 @@ for(let i = 0; i < data.length; i++){
 }
 console.log(data.length, cnt);
 
-/*
+
 console.log(data);
 for(let i = 0; i < data.length; i++){
     let cnt = 0;
@@ -69,4 +69,3 @@ $(window).load(() => {
     $('.list').html(`${$('.list').html()}<div class="sum">SUM: ${sum.toLocaleString('ko-KR')}명</div>`);
     ref();
 });
-*/
